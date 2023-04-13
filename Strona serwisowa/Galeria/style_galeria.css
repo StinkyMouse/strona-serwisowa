@@ -1,0 +1,97 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: #cccccc;
+}
+
+.linkdozakladki{
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 20px;
+  width: 25%;
+}
+
+.PrzyciskiZakladek {
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  background-color: #f1f1f1;
+}
+
+.PrzyciskiZakladek button {
+  background-color: inherit;
+  float: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+  
+.PrzyciskiZakladek button:hover {
+  background-color: #ddd;
+}
+
+.PrzyciskiZakladek button.active {
+  background-color: #ccc;
+}
+
+.PrzyciskiZakladek .podzespol {
+  float: left;
+  border: 1;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 33.33%;
+  margin:0;
+}
+
+main{
+  text-align: center;
+  margin:5vw;
+}
+
+.kolumna {
+  float: left;
+  width: 24%;
+  padding: 1px;
+}
+
+.kolumna img {
+  opacity: 0.8;
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.kolumna img:hover {
+  opacity: 1;
+}
+
+.rzad:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.kontener {
+  position: relative;
+  display: none;
+}
+
+#tekstimg {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.zamknijprzyc {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

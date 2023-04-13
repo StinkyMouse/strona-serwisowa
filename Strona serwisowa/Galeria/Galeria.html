@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Serwis komputerowy</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_galeria.css">
+        <meta http-equiv="refresh" content="60"> <!--odswiezanie strony co 60 sekund-->
+        <meta name="author" content="Aleksy Butja">
+        <meta name="klasa" content="4PAB">
+        <meta name="keywords" content="PC, Komputer, Podzespoły, Wymiana podzespołów">
+        <meta name="description" content="Strona serwisu komputerowego">
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <div class="PrzyciskiZakladek">
+        <a href="../Main/index.html">
+          <button class="linkdozakladki">Główna</button>
+        </a>
+        <a href="../Galeria/Galeria.html">
+          <button class="linkdozakladki">Galeria</button>
+        </a>
+        <a href="../Podzespol/Podzespol.html">
+          <button class="linkdozakladki">Wymiana podzespołów</button>
+        </a> 
+        <a href="../Kontakt/Kontakt.html">
+          <button class="linkdozakladki">Kontakt</button>
+        </a>
+      </div>
+        <main>
+          <div class="rzad">
+            <div class="kolumna">
+              <img src="zdjecie1.jpg" alt="klaw" onclick="myFunction(this);">
+            </div>
+            <div class="kolumna">
+              <img src="zdjecie2.jpg" alt="lap" onclick="myFunction(this);">
+            </div>
+            <div class="kolumna">
+              <img src="zdjecie3.jpg" alt="naprawa" onclick="myFunction(this);">
+            </div>
+            <div class="kolumna">
+              <img src="zdjecie4.jpg" alt="konserwacja" onclick="myFunction(this);">
+            </div>
+          </div>
+          <div class="kontener">
+            <span onclick="this.parentElement.style.display='none'" class="zamknijprzyc">&times;</span>
+            <img id="powimg" style="width:100%">
+            <div id="tekstimg"></div>
+          </div>
+        </main>
+      </body>
+</html>

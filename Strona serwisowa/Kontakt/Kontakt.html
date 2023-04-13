@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Serwis komputerowy</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_kontakt.css">
+        <meta http-equiv="refresh" content="60"> <!--odswiezanie strony co 60 sekund-->
+        <meta name="author" content="Aleksy Butja">
+        <meta name="keywords" content="PC, Komputer, Podzespoły, Wymiana podzespołów">
+        <meta name="description" content="Strona ">
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <div class="PrzyciskiZakladek">
+        <a href="../Main/index.html">
+          <button class="linkdozakladki">Główna</button>
+        </a>
+        <a href="../Galeria/Galeria.html">
+          <button class="linkdozakladki">Galeria</button>
+        </a>
+        <a href="../Podzespol/Podzespol.html">
+          <button class="linkdozakladki">Wymiana podzespołów</button>
+        </a> 
+        <a href="../Kontakt/Kontakt.html">
+          <button class="linkdozakladki">Kontakt</button>
+        </a>
+      </div>
+      <main>
+        <h1>Formularz do kontaktu z nami:</h1>
+        <form action="./" method="post">
+          <p>Imię: <input type="text" name="imie" /></p>
+          <p>Nazwisko: <input type="text" name="nazwisko" /></p>
+          <p>E-mail: <input type="email" name="email" /></p>
+          <textarea name='opis' placeholder="Opis:"></textarea>
+          <p><input type="submit" /></p>
+      </form>
+      </main>
+    </body>
+</html>

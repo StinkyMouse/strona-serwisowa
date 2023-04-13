@@ -1,0 +1,131 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: #cccccc;
+}
+
+.linkdozakladki{
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 20px;
+  width: 25%;
+}
+
+.PrzyciskiZakladek {
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  background:linear-gradient(180deg, #f1f1f1, #cccccc);
+}
+
+.PrzyciskiZakladek button {
+  background:linear-gradient(180deg, #f1f1f1, #cccccc);
+  float: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+  
+.PrzyciskiZakladek button:hover {
+  background-color: #ddd;
+}
+
+.PrzyciskiZakladek button.active {
+  background-color: #ccc;
+}
+
+.PrzyciskiZakladek .podzespol {
+  float: left;
+  border: 1;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 33.33%;
+  margin:0;
+}
+
+main{
+  text-align: center;
+  margin:5vw;
+
+}
+
+.przycisk {
+  overflow: show;
+  padding-bottom: 5px;
+}
+
+.przycisk button {
+  background:linear-gradient(180deg, #f1f1f1, #cccccc);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.przycisk button:hover {
+  background:linear-gradient(180deg, #cccccc, #f1f1f1);
+}
+
+.przycisk button.active {
+  background-color:inherit;
+}
+
+.content {
+  display: none;
+  padding: 6px 12px;
+}
+
+#Dysk{
+  width:100%;
+}
+
+section{
+  text-align:center;
+}
+
+.podprzycisk {
+  overflow: show;
+  float: center;
+  padding-bottom: 5px;
+  text-align:center;
+  height:40px;
+  margin-bottom: 1px;
+  margin-left:25%;
+}
+
+.podprzycisk button {
+  background:linear-gradient(180deg, #f1f1f1, #cccccc);
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  text-align:center;
+  transition: 0.3s;
+}
+
+.podprzycisk button:hover {
+  background:linear-gradient(180deg, #cccccc, #f1f1f1);
+}
+
+.podcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dt{
+  float: left;
+  border: 1;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 20%;
+  margin:0;
+}

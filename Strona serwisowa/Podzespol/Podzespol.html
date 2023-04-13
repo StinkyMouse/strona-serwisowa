@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Serwis komputerowy</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_podzespol.css">
+        <meta http-equiv="refresh" content="60"> <!--odswiezanie strony co 60 sekund-->
+        <meta name="author" content="Aleksy Butja">
+        <meta name="keywords" content="PC, Komputer, Podzespoły, Wymiana podzespołów">
+        <meta name="description" content="Strona ">
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+      <div class="PrzyciskiZakladek">
+        <a href="../Main/index.html">
+          <button class="linkdozakladki">Główna</button>
+        </a>
+        <a href="../Galeria/Galeria.html">
+          <button class="linkdozakladki">Galeria</button>
+        </a>
+        <a href="../Podzespol/Podzespol.html">
+          <button class="linkdozakladki">Wymiana podzespołów</button>
+        </a> 
+        <a href="../Kontakt/Kontakt.html">
+          <button class="linkdozakladki">Kontakt</button>
+        </a>
+      
+      <main>
+        <div class="przycisk">
+          <button class="podzespol" onclick="przycisk(event, 'Karta')">Karta graficzna</button>
+          <button class="podzespol" onclick="przycisk(event, 'Dysk')">Dysk twardy</button>
+          <button class="podzespol" onclick="przycisk(event, 'Procesor')">Procesor</button>
+        </div>
+      </main>
+      <section>
+        <div id="Karta" class="content">
+          <h3>Karta graficzna</h3>
+          <image src="karta_graficzna.jpg"></image>
+        </div>
+        
+        <div id="Dysk" class="content">
+          <div class="podprzycisk">
+            <button class="dt" onclick="podprzycisk(event, 'hdd')">hdd</button>
+            <button class="dt" onclick="podprzycisk(event, 'ssd')">ssd</button>
+            <button class="dt" onclick="podprzycisk(event, 'm1')">m1</button>
+          </div>
+          <div id="hdd" class="podcontent">
+            <h3>Dysk HDD</h3>
+            <image src="hdd.jpg"></image>
+          </div>
+          <div id="ssd" class="podcontent">
+            <h3>Dysk SSD</h3>
+            <image src="ssd.jpg"></image>
+          </div>
+          <div id="m1" class="podcontent">
+            <h3>Dysk M2</h3>
+            <image src="m2.jpg"></image>
+          </div>
+        </div>
+        <div id="Procesor" class="content">
+          <h3>Procesor</h3>
+          <image src="procesor.jpg"> </image>
+        </section>
+      </div>
+    </div>
+    </body>
+</html>

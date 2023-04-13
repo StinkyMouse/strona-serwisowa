@@ -1,0 +1,62 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: #cccccc;
+}
+
+.linkdozakladki{
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 20px;
+  width: 25%;
+}
+
+.PrzyciskiZakladek {
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  background-color: #f1f1f1;
+}
+
+.PrzyciskiZakladek button {
+  background-color: inherit;
+  float: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+  
+.PrzyciskiZakladek button:hover {
+  background-color: #ddd;
+}
+
+.PrzyciskiZakladek button.active {
+  background-color: #ccc;
+}
+
+.PrzyciskiZakladek .podzespol {
+  float: left;
+  border: 1;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 33.33%;
+  margin:0;
+}
+
+h1{
+  text-align:center;
+}
+
+main{
+  margin:5vw;
+  border:1;
+}
+
+form{
+  text-align:center;
+  margin-top:100px;
+  
+}
